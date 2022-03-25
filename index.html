@@ -279,10 +279,10 @@
 			<script type="text/javascript">
 				$.getJSON('./data/course-and-subcourses.json', function(json, textStatus) {
 					for (var j in json) {
-						table=`	<table class="col-lg-3 mt-3 text-black">
-						  			<tr><th>${j}</th></tr>
+						table=`	<div class="col-lg-3 mt-3 text-black ">
+						  			<h3 class="font-weight-bold">${j}</h3
 									<tr><td>${json[j].join(", ")}</td></tr>
-							 	</table>`
+							 	</div>`
 						$('#content-area').append(table)
 					}
 				});
