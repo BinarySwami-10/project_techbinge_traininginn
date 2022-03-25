@@ -951,5 +951,11 @@ input.mail_bt::placeholder {
     margin-top: 90px;
 }
 
+.text-black{
+    color: #000;
+}
+.bg-black{
+    background-color: #000;
+}
 
 /* copyright section end */

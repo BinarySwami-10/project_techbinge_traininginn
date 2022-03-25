@@ -1,0 +1,230 @@
+{
+	"Accounting & Finance": [
+		"Accounting",
+		"Finance",
+		"Risk Management",
+		"Cost & Budgeting",
+		"Purchasing & Procurement",
+		"Banking",
+		"ACCA",
+		"Auditing",
+		"CMA",
+		"Financial Management",
+		"Trading & Investment",
+		"Finance for Non Finance Managers",
+		"Financial Analysis",
+		"CPA",
+		"IFRS",
+		"Tax",
+		"Fraud & Laundering",
+		"Islamic Finance",
+		"Credit",
+		"Financial Modeling",
+		"CIA",
+		"Treasury",
+		"CIMA",
+		"Insurance"
+	],
+	"Arts & Design": [
+		"Graphic Design",
+		"Web Design",
+		"Design",
+		"Photoshop",
+		"Music",
+		"Interior Design",
+		"Audio Production",
+		"Film & Television",
+		"Photography",
+		"Autocad",
+		"3D",
+		"Art",
+		"Animation",
+		"Crafts",
+		"Autodesk",
+		"Video Production",
+		"Fine Arts",
+		"Dance",
+		"Sewing"
+	],
+	"Aviation": [
+		"Airport Commercial Management",
+		"Security Management",
+		"Cabin Crew",
+		"Emergency Planning Management",
+		"Aircraft Maintenance",
+		"Pilot Training"
+	],
+	"Business Administration": [
+		"Business Management",
+		"Leadership",
+		"Business Analysis",
+		"Strategic Management",
+		"MBA",
+		"Operations Management",
+		"Event Management",
+		"Entrepreneurship",
+		"Innovation",
+		"Economics",
+		"Process Management"
+	],
+	"Computer Science": [
+		"Microsoft Certified",
+		"Networking & Security",
+		"Database Management",
+		"Programming",
+		"Information Systems",
+		"Microsoft Excel",
+		"IT Management",
+		"Computer Engineering",
+		"SAP",
+		"Cloud Computing",
+		"Software Development",
+		"Oracle",
+		"Mobile Development"
+	],
+	"Culinary Arts": [
+		"Cooking",
+		"Baking"
+	],
+	"Education": [
+		"Teaching",
+		"Coaching & Mentoring",
+		"Childcare"
+	],
+	"Engineering": [
+		"Electrical Engineering",
+		"Civil Engineering",
+		"Facilities Management",
+		"Mechanical Engineering",
+		"Chemical Engineering",
+		"Architecture",
+		"Oil & Gas",
+		"Manufacturing Engineering",
+		"Aeronautical Engineering",
+		"Renewable Energy",
+		"Landscaping"
+	],
+	"Fashion & Beauty": [
+		"Make up",
+		"Fashion Design",
+		"Hairdressing"
+	],
+	"General & Social Sciences": [
+		"Mathematics",
+		"Law",
+		"Biological Sciences",
+		"Environmental Sciences",
+		"Sciences",
+		"Physics",
+		"Chemistry",
+		"International Relations",
+		"Criminology",
+		"Statistics",
+		"Geography",
+		"Sociology",
+		"Sports Science",
+		"History",
+		"Journalism",
+		"Politics",
+		"Sustainable Development",
+		"Earth & Marine Sciences",
+		"Public Policy",
+		"Islamic Studies",
+		"Philosophy",
+		"Archaeology",
+		"Astronomy"
+	],
+	"Health & Safety": [
+		"Workplace Safety",
+		"Food Safety",
+		"Fire Safety",
+		"Road Safety"
+	],
+	"Healthcare & Medical": [
+		"Medical",
+		"Counselling",
+		"Psychology",
+		"Nutrition",
+		"First Aid",
+		"Massage & Reflexology",
+		"Nursing",
+		"Pharmacy",
+		"Dentistry",
+		"Infection Control",
+		"Medicine",
+		"Physiotherapy",
+		"Special Care",
+		"Natural Therapies",
+		"Veterinary Science"
+	],
+	"Hospitality & Tourism": [
+		"Leisure & Tourism",
+		"Hospitality Management",
+		"Hotel Management",
+		"Restaurant Management"
+	],
+	"Human Resources": [
+		"Global Management",
+		"Learning & Development",
+		"Employee Recruitment",
+		"CIPD"
+	],
+	"Languages": [
+		"English",
+		"Arabic",
+		"IELTS",
+		"Linguistics",
+		"TOEFL",
+		"French",
+		"Spanish",
+		"German",
+		"Italian",
+		"Mandarin",
+		"Portuguese"
+	],
+	"Logistics & Supply Chain": [
+		"Supply Chain & Logistics Management",
+		"Shipping, Freight & Cargo",
+		"Warehouse Management",
+		"Inventory & Production",
+		"Transportation"
+	],
+	"Online": [],
+	"Personal Development": [
+		"Business Communication",
+		"Writing Skills",
+		"Customer Service",
+		"Life Skills",
+		"Exam Preparation",
+		"Business Etiquette",
+		"Time Management"
+	],
+	"Project Management": [
+		"Planning & Scheduling",
+		"Quantity Surveying"
+	],
+	"Risk & Quality": [
+		"Quality Management",
+		"Lean & Sigma Management",
+		"ISO",
+		"Quality Engineering",
+		"IRCA"
+	],
+	"Sales & Marketing": [
+		"Marketing",
+		"Digital Marketing",
+		"Social Media",
+		"Sales & Negotiation",
+		"Media & Communication",
+		"Public Relations",
+		"SEO"
+	],
+	"Sport & Fitness": [
+		"Fitness & Workout",
+		"Yoga",
+		"Martial Arts",
+		"Tennis",
+		"Swimming",
+		"Diving"
+	]
+}
