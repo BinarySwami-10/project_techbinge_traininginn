@@ -9,7 +9,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
 	<!-- site metas -->
-	<title>Eflyer</title>
+	<title>Training Inn</title>
 	<meta name="keywords" content="">
 	<meta name="description" content="">
 	<meta name="author" content="">
@@ -35,15 +35,12 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
 </head>
+
 <body>
 	<!-- banner bg main start -->
 	<div class="banner_bg_main">
-
-
 		<div class="header_section ">
-
 			<style>
 				#mastermenu{
 					/*border-radius: 5em;*/
@@ -58,7 +55,6 @@
 				<a href="index.html">Support</a>
 				<a href="index.html">Training Centers</a>
 				<a href="#"> Login </a>
-
 				<a href="#" title="Language" class="nav-link" data-toggle="dropdown" aria-expanded="true">
 					<img src="images/flag-uk.png" alt="flag" class="mr-2 " title="United Kingdom"> English <i class="fa fa-angle-down ml-2" aria-hidden="true"></i>
 				</a>
@@ -68,32 +64,28 @@
 						Arabic
 					</a>
 				</div>
-
 			</div>
-
-
-
 		</div>
 
-		<section class="">
-			<div class="swiper">
+		<div class=" ml-auto float-right">
+			<div class="swiper col-lg-12 ">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide text-white">
-						<div class="bg-white rounded text-justify text-black p-2">
-							<img src="https://www.training-inn.com/wp-content/uploads/2022/01/ti-logo-black.png" alt="">
+						<div class="bg-white w-50 mx-auto text-center rounded text-justify text-black p-2">
+							<img  width=300 src="https://www.training-inn.com/wp-content/uploads/2022/01/ti-logo-black.png" alt="">
 						</div>
-							<p class="">
-								The Training-inn platform is a global platform designed and developed with a high efficiency of professionalism, 
-								accuracy, reliability, and quality, linking researchers (Clients, Training Firms) for any material or training course 
-								announced or held by training centers or companies and trainers all over the world with great ease. It is the platform 
-								on which to rely in coordination between all concerned in the field of training.
-							</p>
+						<p class="">
+							The Training-inn platform is a global platform designed and developed with a high efficiency of professionalism, 
+							accuracy, reliability, and quality, linking researchers (Clients, Training Firms) for any material or training course 
+							announced or held by training centers or companies and trainers all over the world with great ease. It is the platform 
+							on which to rely in coordination between all concerned in the field of training.
+						</p>
 					</div>
 					<div class="swiper-slide text-white">
 						<h2 class="text-center text-white"> Vision</h2>
 						<p>
 							To be the first and professional platform globally to provide a service of coordination and effective 
-							linkage between the training elements							
+							linkage between the training elements.To help students to achieve their academic objectives by providing innovative, best in class coaching through interactive technology and mathodology and to make learning meaningful and joyful.						
 						</p>
 					</div>
 					<div class="swiper-slide text-white">
@@ -104,63 +96,40 @@
 						</p>
 					</div>
 				</div>
-				<!-- If we need pagination -->
+				<!--  -->
 				<div class="swiper-pagination"></div>
-
-
 			</div>
+			
+		</div>
 
-			<div class="row">
-				<div hidden class="col-lg-6  rounded p-lg-2 ">
-					<div class="bg-white rounded text-justify text-black p-2">
 
-						
-					</div>
-				</div>
-			</div>
-			<style type="text/css">
-				.swiper {
-					width: 600px;
-					height: 300px;
-				}
-			</style>
-			<script type="text/javascript">
-				$(document).ready(function() {
-					const swiper = new Swiper('.swiper', {
-	  				  // Optional parameters
-	  				  direction: 'horizontal',
-	  				  loop: true,
-	  				  autoplay:true,
-
-	  				  // If we need pagination
-	  				  pagination: {
-	  				  	el: '.swiper-pagination',
-	  				  },
-
-	  				  // Navigation arrows
-	  				  navigation: {
-	  				  	nextEl: '.swiper-button-next',
-	  				  	prevEl: '.swiper-button-prev',
-	  				  },
-
-	  				  // And if we need scrollbar
-	  				  scrollbar: {
-	  				  	el: '.swiper-scrollbar',
-	  				  },
-	  				});
+		<style type="text/css">
+			.swiper {
+				width: 600px;
+				height: 300px;
+			}
+		</style>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				const swiper = new Swiper('.swiper', {
+					direction: 'horizontal',
+					loop: true,
+					autoplay:true,
+					pagination: {
+						el: '.swiper-pagination',
+					},
 
 				});
-			</script>
-
-		</section>
-
+			});
+		</script>
 	</div>
 
-	<section class="container bg-white rounded my-3 py-3">
-		<div class="row searchFilter" >
-			<div class="col-md-12" >
+
+	<section class="container bg-white rounded my-3 px-0 ">
+		<div class="row searchFilter   p-0" >
+			<div class="col-md-12 p-0" >
 				<div class="input-group" >
-					<input id="table_filter" type="text" class="form-control" aria-label="Text input with segmented button dropdown" >
+					<input id="table_filter" type="text" class="form-control" aria-label="Text input with segmented button dropdown" placeholder="Search Location or Course" >
 					<div class="input-group-btn" >
 						<button type="button" class="btn btn-secondary dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
 							<span class="label-icon" >Course Category</span> 
@@ -198,22 +167,13 @@
 									<input class="cat_type category-input" data-label="All" id="all" value="" name="radios" type="radio" ><label for="all" >All</label>
 								</li>
 								<li >
-									<input type="radio" name="radios"   ><label class="category-label" for="Design" > عادل</label>
-								</li>
-								<li >
-									<input type="radio" name="radios"   ><label class="category-label" for="Marketing" > جوجل</label>
-								</li>
-								<li >
-									<input type="radio" name="radios"   ><label class="category-label" for="Programming" > On Place</label>
-								</li>
-								<li >
 									<input type="radio" name="radios"   ><label class="category-label" for="Sales" > Virtual</label>
 								</li>
 								<li >
 									<input type="radio" name="radios"   ><label class="category-label" for="Support" > Online</label>
 								</li>
 								<li >
-									<input type="radio" name="radios"   ><label class="category-label" for="Support" >  Published</label>
+									<input type="radio" name="radios"   ><label class="category-label" for="Support" >  On-Site</label>
 								</li>
 							</ul>
 						</div>
@@ -268,7 +228,9 @@
 							width: 100%;
 							height: 100%;
 						}
-						.mapouter{position:relative;text-align:right;height:500px;width:100%;}
+						.mapouter{
+							position:relative;text-align:right;height:500px;width:100%;
+						}
 					</style>
 				</div>
 			</div>
@@ -295,6 +257,16 @@
 		</script>
 	</section>
 
+	<section class="py-5" style="background-image: url('./images/conference2.jpg');background-size: 100%;">
+		<div class="text-center my-5" >
+			<a target="blank" href="https://apps.apple.com/jo/app/training-inn/id1558462768">
+				<img width="300px" src="images/appstore.svg" alt="">
+			</a>
+			<a target="blank" href="https://play.google.com/store/apps/details?id=com.traininginn">
+				<img width="300px" src="images/playstore.svg" alt="">
+			</a>
+		</div>
+	</section>
 
 	<section id="courselisting" class="px-5">
 		<h3 class="display-4">All Courses</h3>	
@@ -307,7 +279,7 @@
 				for (var j in json) {
 					table=`	<div class="col-lg-3 mt-3 text-black ">
 					<h3 class="font-weight-bold">${j}</h3
-					<tr><td>${json[j].join(", ")}</td></tr>
+					<tr><td>${json[j].join(", ").slice(0, 100)}</td></tr>
 					</div>`
 					$('#content-area').append(table)
 				}
@@ -371,19 +343,60 @@
 			-->
 		</div>
 	</div>
-	<!-- fashion section end -->
-	<!-- electronic section start -->
 	<style type="text/css">
 		.box_main img{
 			width: 100%;
 			height: auto;
 		}
 	</style>
+	<div class="container">
+		<div class=" text-center mt-5 ">
+	        <h1>Bootstrap Contact Form</h1>
+	    </div>
+	    <div class="row ">
+	        <div class="col-lg-7 mx-auto">
+	            <div class="card mt-2 mx-auto p-4 bg-light">
+	                <div class="card-body bg-light">
+	                    <div class="container">
+	                        <form id="contact-form" role="form">
+	                            <div class="controls">
+	                                <div class="row">
+	                                    <div class="col-md-6">
+	                                        <div class="form-group"> <label for="form_name">Firstname *</label> <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required."> </div>
+	                                    </div>
+	                                    <div class="col-md-6">
+	                                        <div class="form-group"> <label for="form_lastname">Lastname *</label> <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required."> </div>
+	                                    </div>
+	                                </div>
+	                                <div class="row">
+	                                    <div class="col-md-6">
+	                                        <div class="form-group"> <label for="form_email">Email *</label> <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required."> </div>
+	                                    </div>
+	                                    <div class="col-md-6">
+	                                        <div class="form-group"> <label for="form_need">Please specify your need *</label> <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+	                                                <option value="" selected disabled>--Select Your Issue--</option>
+	                                                <option>Request Invoice for order</option>
+	                                                <option>Request order status</option>
+	                                                <option>Haven't received cashback yet</option>
+	                                                <option>Other</option>
+	                                            </select> </div>
+	                                    </div>
+	                                </div>
+	                                <div class="row">
+	                                    <div class="col-md-12">
+	                                        <div class="form-group"> <label for="form_message">Message *</label> <textarea id="form_message" name="message" class="form-control" placeholder="Write your message here." rows="4" required="required" data-error="Please, leave us a message."></textarea> </div>
+	                                    </div>
+	                                    <div class="col-md-12"> <input type="submit" class="btn btn-success btn-send pt-2 btn-block " value="Send Message"> </div>
+	                                </div>
+	                            </div>
+	                        </form>
+	                    </div>
+	                </div>
+	            </div> <!-- /.8 -->
+	        </div> <!-- /.row-->
+	    </div>
+	</div>
 
-	<!-- electronic section end -->
-	<!-- jewellery  section start -->
-	<!-- jewellery  section end -->
-	<!-- footer section start -->
 	<div class="footer_section layout_padding">
 		<div class="container">
 			<div class="display-4 text-center">Mosook Training Portal</div>

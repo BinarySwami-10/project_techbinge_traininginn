@@ -212,10 +212,10 @@ button {
 
 .banner_bg_main {
     width: 100%;
-    float: left;
+    /*float: left;*/
     background-image: url(../images/conference.jpg);
     height: 66vh;
-    background-size: 100%;
+    /*background-size: 100%;*/
     background-repeat: no-repeat;
 }
 
